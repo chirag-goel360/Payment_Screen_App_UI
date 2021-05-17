@@ -42,17 +42,19 @@ class NMCard extends StatelessWidget {
             width: 70,
             height: 40,
             child: Container(
-              margin: active ? EdgeInsets.fromLTRB(
-                35,
-                5,
-                5,
-                5,
-              ) : EdgeInsets.fromLTRB(
-                5,
-                5,
-                35,
-                5,
-              ),
+              margin: active
+                  ? EdgeInsets.fromLTRB(
+                      35,
+                      5,
+                      5,
+                      5,
+                    )
+                  : EdgeInsets.fromLTRB(
+                      5,
+                      5,
+                      35,
+                      5,
+                    ),
               decoration: nmButton,
             ),
           ),

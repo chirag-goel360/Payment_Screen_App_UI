@@ -45,7 +45,7 @@ class _TransactionSliderState extends State<TransactionSlider> {
             value: transLimit,
             min: 1,
             max: 10000,
-            onChanged: (limitInput){
+            onChanged: (limitInput) {
               setState(() {
                 transLimit = limitInput;
               });
